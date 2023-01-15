@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:"Work Sans", sans-serif;
+    box-sizing: border-box;
+
+    /* width: 100%;
+    height: auto; */
+    
+   
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+ /*------------ header section --------- */
+ /* #header-section{
+    margin: 30px 30px;
+ } */
+ header{
+    background-color:rgb(247, 238, 227)
+ }
+ .nav-logo span {
+    font-size: 27px;
+    font-weight: 800;
+   
+ }
+ /* nav section/////////// */
+ nav{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+ .nav-meanu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+ }
+
+ .nav-meanu ul li {
+    display: inline-block;
+ }
+ .nav-meanu ul li a {
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(95, 93, 93);
+ }
+ .nav-meanu ul li a:hover{
+      font-weight: bold;
+      font-size: 15px;
+ }
+ /*---------------- banner ------------- */
+ /* .container{
+    max-width: 1200px;
+    margin: 0 auto; */
+ .banner{
+   margin-top: 50px;
+ }
+ .banner-info{
+   text-align: center;
+ }
+ .banner-info h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+.banner-info p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 870px;
+    margin: 30px auto;
+    color:  rgb(167, 160, 160);
+}
+.btn-primary{
+    background-color: rgb(237, 164, 6);
+    color: whitesmoke;
+    font-size: 20px;
+    border: 0;
+    padding:20px 25px;
+    border-radius: 7px;
+    
+}
+.banner-img{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+.banner-img img{
+   width: 100%;
+   height: 100%;
+}
+/* -----------main section team work ------------------- */
+.team-work{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   padding: 50px 30px;
+}
+.teams{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 50px;
+
+}
+.team-img img{
+   width: 275px;
+   height:auto;
+  
+}
+.team-title h2 {
+   font-size: 45px;
+   font-weight: 500;
+   color: rgb(95, 93, 93) ;
+}
+.team-title h2 span {
+   font-weight: bold;
+   color: #000;
+}
+.team-title h2 b {
+   font-weight: bold;
+   color: #FF900E;
+}
+.team-title p{
+   font-size: 15px;
+   font-weight: 350px;
+   color: rgb(95, 93, 93) ;
+   line-height: 25px;
+   margin: 30px 0;
+}
+/* Feature---------------- */
+.features{
+   display: flex;
+   gap: 100px;
+}
+.features-title h2 {
+  padding: 0 20px; 
+  border-left: 5px solid #FF900E;
+  font-size: 30px;
+  font-weight: 700;
+}
+.features-title p{
+   font-size: 10px;
+   font-weight: 350px;
+   color: rgb(95, 93, 93) ;
+   line-height: 20px;
+   margin: 20px 0;
+}
+.feature{
+   box-shadow: 0px 0px 20px rgb(0,0,0,0.3);
+   border-radius: 5px;
+   padding: 5px;
+   margin: 10px 0;
+}
+.feature h2 {
+   font-size: 15px;
+   font-weight: 700;
+}
+.feature p {
+   font-size: 10px;
+   font-weight: 350px;
+   color: rgb(95, 93, 93) ;
+   line-height: 25px;
+   margin: 10px 0;
+   max-width: 550px;
+   margin-top: 8px;
+}
+.features-img{
+   position: relative;
+   max-width: 700px;
+}
+.features-img img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.features-img .experience {
+   display: inline-block;
+   background-color: #FF900E;
+   padding: 30px;
+   border-radius: 8px;
+   position: absolute;
+   bottom: -50px;
+   left: -50px;
+}
+
+
+
+/* Some fact ------------------ */
+#facts{
+   padding-top: 100px 0;
+}
+.fact{
+   /* gap: 50px; */
+   padding-top: 100px 0;
+}
+.fact h2{
+   font-size: 35px;
+   font-weight: 600;
+}
+.fact p {
+   font-size: 15px;
+   font-weight: 600;
+   color: rgb(95, 93, 93) ;
+   line-height: 25px;
+   margin: 30px 0;
+}
+.fact-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 140px;
+  
+}
+.fact-img{
+   margin-top: 30px;
+   border: 1px solid lightcoral;
+   padding: 20px;
+   border-radius: 10px;
+}
+.fact-img:hover{
+   color:rgb(88, 46, 3);
+   background-color: lightcoral;
+   font-size:35px ;
+   padding: 20px;
+}
+
+.fact-img p {
+   font-size: 15px;
+   font-weight: 700;
+   color:  rgb(95, 93, 93);
+}
+
+/* -----------------Sponspors---------------- */
+.sponser{
+  text-align: center;
+  margin-top: 150px;
+}
+.sponser h2 {
+   font-size: 40px;
+   font-weight:700;
+}
+.sponser p{
+   font-size: 15px;
+   font-weight: 350;
+   color: rgb(95, 93, 93) ;
+   margin: 30px auto;
+   line-height: 30px;
+}
+.sponser-title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+}
+.sponser-img img{
+   filter: grayscale(100%);
+   width: 100px;
+}
+/*---------------- footer------------------------ */
+#footer{
+      background-color:rgb(246, 233, 216) ;
+     margin: 0 170px;
+     /* height: 50px; */
+     border-radius: 5px;
+        
+}
+.footer-title{
+   text-align: center;
+   margin-top: 150px;
+
+}
+.footer-title p {
+   font-size: 15px;
+   font-weight: 350;
+   color: rgb(95, 93, 93) ;
+   margin: 30px auto;
+   line-height: 30px;
+   padding: 20px;
+}
+
+
+
+@media screen and (max-width :576px) {
+     #header-section{
+      background: #FFF4E7;
+      position: fixed;
+      top:0px; 
+      width: 100%;
+      z-index: 1;
+      padding: 30px 0;
+     }
+
+     .nav-meanu ul {
+      display: none;
+     }
+
+     .nav-meanu ul li{
+      display: block;
+      line-height: 40px;
+     }
+
+     .nav-meanu ul li a {
+      font-size: 18px;
+      font-weight: bold;
+     }
+     .nav-meanu ul li a:hover {
+      font-size: 18px;
+     }
+
+     .banner{
+      padding-top: 145px;
+     }
+     .team-work{
+      flex-direction: column-reverse;
+     }
+     .teams{
+      grid-template-columns: repeat(1, 1fr);
+     }
+     .team-title{
+      text-align: center;
+     }
+
+     .features{
+      gap: 45px;
+      flex-direction: column;
+     }
+     .features-img{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     }
+     .features-img .experience {
+      margin-top: -75px;
+     }
+     .fact-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+     }
+     .fact-img{
+      height: 200px;
+      width: 200px;
+     }
+     .fact-img:hover{
+      font-size: 30px;
+     }
+
+     #sponser-section{
+      margin-bottom: 0;
+     }
+     .sponser-title{
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+     }
+     .footer-title p {
+      font-size: 15px;
+      text-align: center;
+     }
+     
+}
